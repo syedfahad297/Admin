@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+ <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 dark_bg">
+        <div class="sidebar p-2">
+          <div class="logo fs-4 fw-bold text-white mb-4">Dash UI</div>
+          <div class="menu">
+            <ul>
+              <li class="mb-3"><a href="#">
+                  <i class="ri-home-7-line me-1"></i>
+                  Dashboard
+                </a></li>
+              <li class="mb-3">
+                <a class="d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <div>
+                    <i class="ri-stack-line me-1"></i>
+                    <span>Pages</span>
+                  </div>
+                  <i class="ri-arrow-drop-down-line ri-xl"></i>
+                </a>
+                <div class="sub-nav collapse ps-4 pt-2" id="collapseExample">
+                  <ul>
+                    <li class="mb-1">
+                      <a href="#">Home Page</a>
+                    </li>
+                    <li class="mb-1">
+                      <a href="#">Profile Page</a>
+                    </li>
+                    <li class="mb-1">
+                      <a href="#">Settings Page</a>
+                    </li>
+                    <li class="mb-1">
+                      <a href="#">Pricing Page</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-3"><a href="#">
+                  <i class="ri-lock-line me-1"></i>
+                  Authentication</a></li>
+              <li class="mb-3"><a href="#"><i class="ri-layout-2-line me-1"></i> Layouts</a></li>
+              <li class="mb-3"><a href="#"><i class="ri-code-block me-1"></i> Components</a></li>
+              <li class="mb-3"><a href="#"><i class="ri-pages-line me-1"></i> Menus</a></li>
+              <li class="mb-3"><a href="#"><i class="ri-article-line me-1"></i> Docs</a></li>
+              <li class="mb-3"><a href="#"><i class="ri-download-cloud-2-line me-1"></i> Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <div class="container-fluid pt-2">
+          <div class="row justify-content-between">
+            <div class="col-md-3">
+              <div class="d-flex gap-2">
+                <a class="btn" href="#">
+                  <i class="ri-menu-2-line ri-1x"></i>
+                </a>
+                <input type="text" placeholder="search" class="form-control" />
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="d-flex justify-content-end gap-3">
+                <span class="small-circle bg-secondary-subtle"><i class="ri-notification-line"></i></span>
+                <div class="dropdown">
+                  <a class="dropdown-toggle position-relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="img-fluid small-circle" src="./assets/images/avatar-1.jpg" />
+                    <span class="online-status"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="p-2 border-bottom border-1 fw-bold">
+                      John E. Grainger
+                    </li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="ri-user-line"></i>
+                      Edit Profile
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="ri-creative-commons-nd-line"></i>
+                      Activity</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="ri-logout-box-line"></i>
+                      Signout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

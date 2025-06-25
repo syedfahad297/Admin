@@ -1,0 +1,57 @@
+:root {
+    --dark-color: #212b36;
+}
+
+/* .row > div {
+    border: 1px solid red;
+    height: 100vh;
+} */
+a, span {
+    display: inline-block;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.dark_bg {
+    background-color: var(--dark-color);
+}
+
+.sidebar {
+    
+}
+
+.menu ul li a {
+    color: #919eab;
+    transition: all .4s ease;
+    font-size: 15px;
+}
+.menu ul li a:hover {
+    color: #f4f6f8;
+}
+
+.small-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-toggle ul li a {
+    font-size: 15px;
+}
+
+.online-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(7, 243, 7);
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+}
