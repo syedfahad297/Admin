@@ -1,11 +1,6 @@
 :root {
     --dark-color: #212b36;
 }
-
-/* .row > div {
-    border: 1px solid red;
-    height: 100vh;
-} */
 a, span {
     display: inline-block;
     text-decoration: none;
