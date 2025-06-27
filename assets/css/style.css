@@ -54,7 +54,7 @@ ul {
     padding: 130px 120px;
 }
 .m4{
-    margin-top: -120px;
+    margin-top: -150px;
 }
 .icon-box {
     background-color: #e0dcfe;
@@ -64,4 +64,20 @@ ul {
 }
 .box_shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+}
+.mb{
+    margin-bottom: 20px;
+}
+.avatar-group > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px solid white;
+    margin-left: -20px;
+    position: relative;
+    z-index: 3;
+}
+.avatar-group > img:hover {
+    z-index: 10;
 }
