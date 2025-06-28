@@ -1,6 +1,9 @@
 :root {
     --dark-color: #212b36;
 }
+body {
+    background-color: #f1f5f9;
+}
 a, span {
     display: inline-block;
     text-decoration: none;
@@ -11,10 +14,6 @@ ul {
 }
 .dark_bg {
     background-color: var(--dark-color);
-}
-
-.sidebar {
-    
 }
 
 .menu ul li a {
@@ -68,6 +67,12 @@ ul {
 .mb{
     margin-bottom: 20px;
 }
+.tbl-th > th {
+    background-color: #f1f5f9;
+    font-size: 15px;
+    color: rgb(99, 115, 129);
+    font-weight: 500;
+}
 .avatar-group > img {
     width: 30px;
     height: 30px;
@@ -80,4 +85,16 @@ ul {
 }
 .avatar-group > img:hover {
     z-index: 10;
+}
+h6:hover{
+    color: blue;
+}
+.img{
+     width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.d1 span{
+    color: #000;
+    
 }
